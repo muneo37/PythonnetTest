@@ -94,7 +94,7 @@ namespace PythonnetTest
                 dynamic dict = myMath.GetDict(); // 辞書型を返す関数呼び出し
                 Console.WriteLine(dict[3]); // 辞書からキーを指定して読み取り
                 dynamic ten = myMath.tensor();
-                Console.WriteLine(ten);
+                //Console.WriteLine(ten);
             }
 
             // python環境を破棄
